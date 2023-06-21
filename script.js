@@ -1,8 +1,6 @@
 'use strict';
 
-let activePlayer = 0;
-let scores = [0, 0];
-let currScore = 0;
+let activePlayer, scores, currScore;
 const winScore = 100;
 const diceEl = document.querySelector('.dice');
 const player0El = document.querySelector('.player--0');
